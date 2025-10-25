@@ -6,7 +6,7 @@ import torch.nn.functional as F
 
 class CoraDataset(Dataset):
     def __init__(self):
-        self.num_nodes = 2700
+        self.num_nodes = 2708
         self.num_features = 1433
         self.num_classes = 7
         self.features = torch.randn(self.num_nodes, self.num_features)
